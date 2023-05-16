@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nina Carducci - Photographe à Bordeaux</title>
-    <meta
-      description="Nina Carducci, photographe professionnelle à Paris. Je réalise des photos de mariage, de concert, de portrait, de paysage et de reportage."/>
+    <meta name="description" content="Nina Carducci, photographe professionnelle à Paris. Je réalise des photos de mariage, de concert, de portrait, de paysage et de reportage."/>
 
       <!-- **************** Google Font **************** -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,10 +16,65 @@
     />
 
     <!-- **************** Link **************** -->
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/style.min.css"/>
 
+    <!-- **************** Script **************** -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script src="./assets/bootstrap/bootstrap.bundle.min.js" async></script>
+  <script src="./assets/maugallery.min.js" defer></script>
+  <script src="./assets/scripts.min.js" defer></script>
     <!-- **************** SEO **************** -->
+   <meta property="og:title" content="Nina Carducci photographe" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.ninacarducci.fr/" />
+	<meta property="og:image" content="http://ninacarducci.fr/assets/images/nina.webp" />
+	<meta property="og:description"
+		content="Photographe professionnel à votre disposition pour des shootings, retouches, et album photos." />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@publisher_handle">
+	<meta name="twitter:title" content="Nina Carducci photographe">
+	<meta name="twitter:description"
+		content="Photographe professionnel à votre disposition pour des shootings, retouches, et album photos.">
+	<meta name="twitter:creator" content="@ninacarducci">
+	<meta name="twitter:image" content="http://ninacarducci.fr/assets/images/ninamini.jpg">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Nina Carducci",
+      "image": "",
+      "@id": "",
+      "url": "http://nina-carducci.github.io",
+      "telephone": "05 56 67 78 89",
+      "priceRange": "50€ - 400€",
+      "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "68 avenue Alsace-Lorraine",
+      "addressLocality": "Bordeaux",
+      "postalCode": "33200",
+      "addressCountry": "FR"
+      },
+      "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+      } 
+    }
+  </script>
   </head>
 
   <body>
@@ -40,13 +94,12 @@
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               aria-label="Lien vers instagram"
               target="_blank"
-              ><img src="assets/images/instagram.png" alt="Logo Instagram"
+              ><img src="assets/images/instagram.png" width="20" height="20" alt="Logo Instagram"
             /></a>
           </li>
         </ul>
       </div>
-    </nav>
-    </div>
+      </nav>
     <div id="header">
     </header>
 
@@ -123,7 +176,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+  
     <div id="about">
       <div class="picture left">
         <img
@@ -333,12 +386,5 @@
     </div>
     </footer>
   </body>
-  <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"
-  ></script>
-  <script src="./assets/maugallery.js"></script>
-  <script src="./assets/scripts.js"></script>
+  
 </html>
