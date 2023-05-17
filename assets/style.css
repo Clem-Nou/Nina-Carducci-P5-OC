@@ -45,6 +45,16 @@ body {
   height: 20px;
 }
 
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+.gallery-item {
+  position: absolute;
+  object-fit: cover;
+  padding: 0.5em;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
